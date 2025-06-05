@@ -1,7 +1,6 @@
-// Mensagem de boas-vindas no console
+
 console.log("Página carregada com sucesso!");
 
-// Adiciona evento para alertar o nome do time ao clicar no escudo
 document.addEventListener("DOMContentLoaded", function () {
     const escudos = document.querySelectorAll("table img");
 
@@ -11,4 +10,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
- <script src="script.js"></script>
